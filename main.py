@@ -3,7 +3,7 @@ import random
 import string
 import time
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1432325571505029171/AbEN8_0-rBTuJo86DIarI88Hv31pR-lc0U6xNiGtPTk5M8YxgrsM1XHqdWXtNuA8YFpx"
+WEBHOOK_URL = "YOUR_EWBHOOK_URL_HERE"
 
 def generate_code():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=18))
